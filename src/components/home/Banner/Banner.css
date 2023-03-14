@@ -1,0 +1,53 @@
+.Banner {
+  background-image: url("../../../../public/images/banner.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 90vh;
+  width: 100%;
+}
+.Banner .container {
+  padding-top: 15%;
+}
+.Banner h1 {
+  color: #fff;
+  font-size: 60px;
+}
+.Banner p {
+  color: #fff;
+  opacity: 0.8;
+}
+.flex .box{
+  background-color: #fff;
+  border-radius: 5px;
+  margin-top: 20px;
+  padding: 0 20px;
+}
+.btn1{
+  margin: 2px;
+}
+form .box {
+  padding: 15px;
+  border-left: 1px solid rgba(128, 128, 128, 0.2);
+}
+form .box:nth-child(1) {
+  border-left: none;
+}
+form h4 {
+  font-weight: 500;
+}
+@media screen and (max-width: 800px) {
+  .Banner .container {
+    padding-top: 30%;
+  }
+  form {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  form .box {
+    border-left: none;
+  }
+  form input {
+    width: 100%;
+  }
+}
